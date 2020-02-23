@@ -1,0 +1,38 @@
+{
+    "name": "drnkwati/repack-hashing",
+    "description": "PHP 5.3 Hashing package.",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Taylor Otwell",
+        "email": "taylor@laravel.com"
+    },
+    {
+        "name": "Divine Nkwati",
+        "email": "drnkwati@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=5.3",
+        "ircmaxell/password-compat": "1.0.*"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Repack\\Hashing\\": "src"
+        }
+    },
+    "extra":
+    {
+        "branch-alias":
+        {
+            "dev-master": "5.8-dev"
+        }
+    },
+    "config":
+    {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
